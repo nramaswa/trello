@@ -1,0 +1,29 @@
+{
+  "name": "trello",
+  "version": "0.1.0",
+  "description": "'Create trello cards'",
+  "main": "trello.js",
+  "dependencies": {
+    "underscore": "^1.7.0",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gopi-koneksahealth/trello.git"
+  },
+  "keywords": [
+    "trello",
+    "card",
+    "create"
+  ],
+  "author": "GOPI <gopi@koneksahealth.com> (http://www.koneksahealth.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopi-koneksahealth/trello/issues"
+  },
+  "homepage": "https://github.com/gopi-koneksahealth/trello"
+}

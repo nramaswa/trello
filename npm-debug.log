@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/gopi-koneksahealth/trello.git' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'https://github.com/gopi-koneksahealth/trello.git', null ]
+6 verbose cache add name=undefined spec="https://github.com/gopi-koneksahealth/trello.git" args=["https://github.com/gopi-koneksahealth/trello.git",null]
+7 verbose parsed url { protocol: 'https:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'github.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'github.com',
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/gopi-koneksahealth/trello.git',
+7 verbose parsed url   path: '/gopi-koneksahealth/trello.git',
+7 verbose parsed url   href: 'https://github.com/gopi-koneksahealth/trello.git' }
+8 silly lockFile bf0d811d-om-gopi-koneksahealth-trello-git https://github.com/gopi-koneksahealth/trello.git
+9 verbose lock https://github.com/gopi-koneksahealth/trello.git /Users/GOPI/.npm/bf0d811d-om-gopi-koneksahealth-trello-git.lock
+10 verbose addRemoteTarball [ 'https://github.com/gopi-koneksahealth/trello.git', null ]
+11 info retry fetch attempt 1 at 16:19:22
+12 verbose fetch to= /var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git
+13 http GET https://github.com/gopi-koneksahealth/trello.git
+14 http 200 https://github.com/gopi-koneksahealth/trello.git
+15 verbose tar unpack /var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git
+16 silly lockFile c45f90e6--koneksahealth-trello-git-unpack tar:///var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git-unpack
+17 verbose lock tar:///var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git-unpack /Users/GOPI/.npm/c45f90e6--koneksahealth-trello-git-unpack.lock
+18 silly lockFile 91be3abc-om-gopi-koneksahealth-trello-git tar:///var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git
+19 verbose lock tar:///var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git /Users/GOPI/.npm/91be3abc-om-gopi-koneksahealth-trello-git.lock
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package /var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git
+22 silly lockFile c45f90e6--koneksahealth-trello-git-unpack tar:///var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git-unpack
+23 silly lockFile c45f90e6--koneksahealth-trello-git-unpack tar:///var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git-unpack
+24 silly lockFile 91be3abc-om-gopi-koneksahealth-trello-git tar:///var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git
+25 silly lockFile 91be3abc-om-gopi-koneksahealth-trello-git tar:///var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git
+26 silly lockFile bf0d811d-om-gopi-koneksahealth-trello-git https://github.com/gopi-koneksahealth/trello.git
+27 silly lockFile bf0d811d-om-gopi-koneksahealth-trello-git https://github.com/gopi-koneksahealth/trello.git
+28 error Error: ENOENT, open '/var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git-unpack/package.json'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Darwin 14.0.0
+31 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "https://github.com/gopi-koneksahealth/trello.git"
+32 error cwd /Users/GOPI/trello
+33 error node -v v0.10.35
+34 error npm -v 1.4.28
+35 error path /var/folders/5h/22y6t3fd6g52d2s74zdtjqsh0000gq/T/npm-58904-X_kW_7uC/github.com/gopi-koneksahealth/trello.git-unpack/package.json
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]
