@@ -3,6 +3,20 @@ var _ = require('underscore');
 
 module.exports = function() {
 
+    var escapeString = function(str) {
+
+        console.log('type of str ' + typeof str);
+        var replString = str.replace(/\\n/g, "\\n")
+            .replace(/'/g, "\\'")
+            .replace(/"/g, '\\"')
+            .replace(/&/g, "\\&")
+            .replace(/r/g, "\\r")
+            .replace(/t/g, "\\t")
+            .replace(/b/g, "\\b")
+            .replace(/f/g, "\\f");
+        console.log('replString: ' + replString);
+        return replString;
+    }
     var getObject = function(params, callback) {
         var payload = {
             url: 'https://api.trello.com/' + params.url,
